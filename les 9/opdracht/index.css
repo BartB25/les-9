@@ -1,0 +1,45 @@
+html {
+    background-color: #b4f5a9;
+}
+
+h1, h2{
+    color: #3dc726;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p, li {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+}
+
+ul {
+    list-style-image: url('/images/cake_gif.gif');
+}
+
+.gallerij {
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: auto auto auto;
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-items: center;
+}
+
+img {
+    height: auto;
+    width: 450px;
+}
+
+.gif_center {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.video1 {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
